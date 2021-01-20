@@ -15,7 +15,7 @@ public class Web {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 		//abrir o site
-		driver.get("http:\\www.amazon.com.br");
+		driver.get("https://www.saucedemo.com/index.html");
 
 		return driver;
 	}
